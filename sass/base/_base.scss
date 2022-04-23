@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
 *,
 *::after,
 *::before {
@@ -31,11 +33,9 @@ body {
   box-sizing: border-box;
   position: relative;
   line-height: 1.5;
-  font-family: sans-serif;
+  font-family: Karla, sans-serif;
   overflow-x: hidden;
   overflow-y: scroll;
-  font-family: 'Source Sans Pro', sans-serif;
-  
 }
 
 a {
@@ -61,4 +61,10 @@ button {
 
 textarea {
   resize: none;
+}
+
+.project-image {
+  box-shadow: -1px -1px 80px -34px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px -1px 80px -34px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px -1px 80px -34px rgba(0,0,0,0.75);
 }

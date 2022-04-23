@@ -12,6 +12,7 @@ $breakpoint arguement choices:
 
 Inside media queries 1em is always 16px i.e 1em = 16px at every screen size only inside media queries
 */
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
 *,
 *::after,
 *::before {
@@ -37,10 +38,9 @@ body {
   box-sizing: border-box;
   position: relative;
   line-height: 1.5;
-  font-family: sans-serif;
+  font-family: Karla, sans-serif;
   overflow-x: hidden;
-  overflow-y: scroll;
-  font-family: 'Source Sans Pro', sans-serif; }
+  overflow-y: scroll; }
 
 a {
   text-decoration: none;
@@ -61,6 +61,11 @@ button {
 
 textarea {
   resize: none; }
+
+.project-image {
+  box-shadow: -1px -1px 80px -34px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px -1px 80px -34px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px -1px 80px -34px rgba(0, 0, 0, 0.75); }
 
 .heading-primary {
   font-size: 6rem;
@@ -182,6 +187,13 @@ textarea {
 
 .d-none {
   display: none; }
+
+.text-link {
+  color: inherit;
+  text-decoration: underline; }
+
+.text-center {
+  text-align: center; }
 
 .home-hero {
   color: #fff;
@@ -594,7 +606,7 @@ textarea {
     padding: 2.5rem 3rem;
     font-size: 1.6rem;
     color: #333;
-    text-align: right;
+    text-align: center;
     border-bottom: 1px solid #eee;
     font-weight: 700;
     text-transform: uppercase;
@@ -612,7 +624,8 @@ textarea {
   color: #fff; }
   .main-footer__upper {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     padding: 8rem 0; }
     @media only screen and (max-width: 56.25em) {
       .main-footer__upper {
@@ -640,7 +653,7 @@ textarea {
   .main-footer__social-cont {
     margin-top: 2rem; }
   .main-footer__icon {
-    margin-right: 1rem;
+    margin-right: 2rem;
     width: 2.5rem; }
     .main-footer__icon--mr-none {
       margin-right: 0; }

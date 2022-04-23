@@ -3,7 +3,8 @@
   color: #fff;
   &__upper {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     padding: 8rem 0;
     @include respond(tab-port) {
       padding: 6rem 0;
@@ -40,7 +41,7 @@
   }
 
   &__icon {
-    margin-right: 1rem;
+    margin-right: 2rem;
     width: 2.5rem;
     &--mr-none {
       margin-right: 0;

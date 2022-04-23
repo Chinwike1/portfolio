@@ -4,17 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Dopefolio</title>
+    <title>Chinwike | Frontend Developer</title>
     <meta name="description" content="Portfolio Template for Developer" />
 
+    <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class="header">
@@ -27,13 +27,11 @@
               class="header__logo-img"
             />
           </div>
-          <span class="header__logo-sub">John Doe</span>
+          <span class="header__logo-sub">Chinwike</span>
         </div>
         <div class="header__main">
           <ul class="header__links">
-            <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
-            </li>
+            
             <li class="header__link-wrapper">
               <a href="./index.html#about" class="header__link">About </a>
             </li>
@@ -41,6 +39,9 @@
               <a href="./index.html#projects" class="header__link">
                 Projects
               </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#blog" class="header__link"> Blog </a>
             </li>
             <li class="header__link-wrapper">
               <a href="./index.html#contact" class="header__link"> Contact </a>
@@ -63,9 +64,6 @@
       <div class="header__sm-menu">
         <div class="header__sm-menu-content">
           <ul class="header__sm-menu-links">
-            <li class="header__sm-menu-link">
-              <a href="./index.html"> Home </a>
-            </li>
 
             <li class="header__sm-menu-link">
               <a href="./index.html#about"> About </a>
@@ -73,6 +71,10 @@
 
             <li class="header__sm-menu-link">
               <a href="./index.html#projects"> Projects </a>
+            </li>
+            
+            <li class="header__sm-menu-link">
+              <a href="./index.html#blog"> Blog </a>
             </li>
 
             <li class="header__sm-menu-link">
@@ -84,12 +86,10 @@
     </header>
     <section class="home-hero">
       <div class="home-hero__content">
-        <h1 class="heading-primary">Hey, My name is John Doe</h1>
+        <h1 class="heading-primary">Hi, I am Chinwike</h1>
         <div class="home-hero__info">
           <p class="text-primary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente solutions for
-            complex problems
+            A freelance Frontend Developer in Nigeria 🇳🇬 focused on building web apps and MVPs for all businesses
           </p>
         </div>
         <div class="home-hero__cta">
@@ -98,7 +98,7 @@
       </div>
       <div class="home-hero__socials">
         <div class="home-hero__social">
-          <a href="#" class="home-hero__social-icon-link">
+          <a href="https://www.linkedin.com/in/chinwike-maduabuchi-3529aa21a" class="home-hero__social-icon-link">
             <img
               src="./assets/png/linkedin-ico.png"
               alt="icon"
@@ -107,7 +107,7 @@
           </a>
         </div>
         <div class="home-hero__social">
-          <a href="#" class="home-hero__social-icon-link">
+          <a href="https://github.com/Chinwike1" class="home-hero__social-icon-link">
             <img
               src="./assets/png/github-ico.png"
               alt="icon"
@@ -116,7 +116,7 @@
           </a>
         </div>
         <div class="home-hero__social">
-          <a href="#" class="home-hero__social-icon-link">
+          <a href="https://twitter.com/Chinwike_M" class="home-hero__social-icon-link">
             <img
               src="./assets/png/twitter-ico.png"
               alt="icon"
@@ -125,17 +125,16 @@
           </a>
         </div>
         <div class="home-hero__social">
-          <a href="#" class="home-hero__social-icon-link">
-            <img
-              src="./assets/png/yt-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
+          <a href="mailto:maduabuchichizzy@gmail.com" class="home-hero__social-icon-link">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+            </svg>
           </a>
         </div>
         <div class="home-hero__social">
           <a
-            href="#"
+            href="https://www.instagram.com/mac_chizy/"
             class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
           >
             <img
@@ -155,8 +154,7 @@
         <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main">About Me</span>
           <span class="heading-sec__sub">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
+            Chinwike Maduabuchi is a <strong>web developer</strong>, <strong>technical writer</strong>, an avid reader, and a self proclaimed movie critic. He also loves <strong>good music</strong>.
           </span>
         </h2>
         <div class="about__content">
@@ -164,21 +162,18 @@
             <h3 class="about__content-title">Get to know me!</h3>
             <div class="about__content-details">
               <p class="about__content-details-para">
-                Hey! It's
-                <strong>John Doe</strong>
-                and I'm a <strong> Frontend Web Developer </strong> located in
-                Los Angeles. I've done
-                <strong> remote </strong>
-                projects for agencies, consulted for startups, and collaborated
-                with talented people to create
-                <strong>digital products </strong>
-                for both business and consumer use.
+                I specialize in building responsive 
+                and accessible user interfaces that are user centered. I use the 
+                JAMstack — and ocassionally write write backend 
+                code — to build fullstack web apps. I also write helpful 
+                <a class="text-link" href="https://blog.logrocket.com/author/chinwikemaduabuchi/">technical articles</a> for developers.
               </p>
               <p class="about__content-details-para">
-                I'm a bit of a digital product junky. Over the years, I've used
-                hundreds of web and mobile apps in different industries and
-                verticals. Feel free to
-                <strong>contact</strong> me here.
+                Throughout my self-taught journey, I've interned at companies to create landing pages for products and also built <a class="text-link" href="#projects">projects</a> of mine.
+                I'm actively searching for front-end developer roles to further my career.
+              </p>
+              <p class="about__content-details-para">
+                When not behind my computer screen, I play Call of Duty Mobile, take walks and breathe. <strong><a class="text-link" href="mailto:maduabuchichizzy@gmail.com">Say Hi! I'm active (:</a></strong>
               </p>
             </div>
             <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
@@ -189,17 +184,13 @@
             <h3 class="about__content-title">My Skills</h3>
             <div class="skills">
               <div class="skills__skill">HTML</div>
-              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">CSS/SASS</div>
               <div class="skills__skill">JavaScript</div>
-              <div class="skills__skill">React</div>
-              <div class="skills__skill">SASS</div>
-              <div class="skills__skill">GIT</div>
-              <div class="skills__skill">Shopify</div>
-              <div class="skills__skill">Wordpress</div>
+              <div class="skills__skill">React/Next</div>
+              <div class="skills__skill">Git</div>
+              <div class="skills__skill">Headless CMS</div>
+              <div class="skills__skill">Node.js</div>
               <div class="skills__skill">Google ADS</div>
-              <div class="skills__skill">Facebook Ads</div>
-              <div class="skills__skill">Android</div>
-              <div class="skills__skill">IOS</div>
             </div>
           </div>
         </div>
@@ -210,98 +201,95 @@
         <h2 class="heading heading-sec heading-sec__mb-bg">
           <span class="heading-sec__main">Projects</span>
           <span class="heading-sec__sub">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
+            Here are some of the projects I've been working on.
           </span>
         </h2>
 
         <div class="projects__content">
           <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
+            <div class="projects__row-img-cont project-image">
+              <a href="https://web3-wallet-ui.vercel.app/dashboard" target="_blank" rel="noopener">
+                <img src="./assets/jpeg/project-1.jpg" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+              </a>
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 1</h3>
+              <a class="text-link" href="https://web3-wallet-ui.vercel.app/dashboard" target="_blank" rel="noopener">
+                <h3 class="projects__row-content-title">Web3 Wallet UI</h3>
+              </a>
               <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
+                A Web3 inspired dashboard built with React, Chart.js & React Query to monitor and display
+                cryptocurrency prices in real time.  
               </p>
               <a
                 href="./project-1.html"
                 class="btn btn--med btn--theme dynamicBgClr"
                 target="_blank"
-                >Case Study</a
+                >See Details</a
               >
             </div>
           </div>
           <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
+            <div class="projects__row-img-cont project-image">
+              <a href="https://realmonline.live/" target="_blank" rel="noopener">
+                <img src="./assets/jpeg/project-2.jpg" alt="realmonline.live/ property management software" class="projects__row-img" loading="lazy" />
+              </a>
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 2</h3>
+              <a href="realmonline.live/" class="text-link" target="_blank" rel="noopener">
+                <h3 class="projects__row-content-title">Realm Online</h3>
+              </a>
               <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
+                A user-friendly, web-based property mangement software for real-estate managers, property managers and landlords.
               </p>
               <a
                 href="./project-2.html"
                 class="btn btn--med btn--theme dynamicBgClr"
                 target="_blank"
-                >Case Study</a
+                >See Details</a
               >
             </div>
           </div>
           <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
+            <div class="projects__row-img-cont project-image">
+              <a href="https://diarysessions-blog.web.app/" target="_blank" rel="noopener">
+                <img src="./assets/jpeg/project-3.jpg" alt="//diarysessions-blog.web.app/ blogging app for all" class="projects__row-img"
+                  loading="lazy" />
+              </a>
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 3</h3>
+              <a href="https://diarysessions-blog.web.app/" class="text-link" target="_blank" rel="noopener"><h3 class="projects__row-content-title">DiarySessions Blog</h3></a>
               <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
+                A place to offload your thoughts. This is a blog app I built with React.js & Firebase — it's also the first project I built without directly following a tutorial lol. Make your first post!
               </p>
               <a
                 href="./project-3.html"
                 class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a
+                target="_blank" 
+                rel="noopener"
+                >See Details</a
               >
             </div>
           </div>
         </div>
       </div>
     </section>
+    <h2 id="blog" class="heading heading-sec heading-sec__mb-bg">
+      <span class="heading-sec__main">Blog</span>
+      <span class="heading-sec__sub">
+        You can read all my <a href="https://blog.logrocket.com/author/chinwikemaduabuchi/" class="text-link" target="_blank" rel="noopener">technical blog posts here</a>.
+      </span>
+    </h2>
     <section id="contact" class="contact sec-pad dynamicBg">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main heading-sec__main--lt">Contact</span>
           <span class="heading-sec__sub heading-sec__sub--lt">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
+            I look forward to hearing from you / working together. <br>
+            Leave a message and I'll get back to you. Alternatively, you can contact me through the social links beneath this form.
           </span>
         </h2>
         <div class="contact__form-container">
-          <form action="#" class="contact__form">
+          <form action="#" class="contact__form" netlify>
             <div class="contact__form-field">
               <label class="contact__form-label" for="name">Name</label>
               <input
@@ -347,39 +335,38 @@
       <div class="main-container">
         <div class="main-footer__upper">
           <div class="main-footer__row main-footer__row-1">
-            <h2 class="heading heading-sm main-footer__heading-sm">
+            <h2 class="heading heading-sm main-footer__heading-sm text-center">
               <span>Social</span>
             </h2>
             <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/chinwike-maduabuchi-3529aa21a">
                 <img
                   class="main-footer__icon"
                   src="./assets/png/linkedin-ico.png"
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://github.com/Chinwike1">
                 <img
                   class="main-footer__icon"
                   src="./assets/png/github-ico.png"
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://twitter.com/Chinwike_M">
                 <img
                   class="main-footer__icon"
                   src="./assets/png/twitter-ico.png"
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/yt-ico.png"
-                  alt="icon"
-                />
+              <a target="_blank" rel="noreferrer" href="mailto:maduabuchichizzy@gmail.com">
+                <svg class="w-6 h-6 main-footer__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                </svg>
               </a>
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/mac_chizy/">
                 <img
                   class="main-footer__icon main-footer__icon--mr-none"
                   src="./assets/png/insta-ico.png"
@@ -388,18 +375,11 @@
               </a>
             </div>
           </div>
-          <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">John Doe</h4>
-            <p class="main-footer__short-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-              tempora explicabo quae quod deserunt
-            </p>
-          </div>
         </div>
 
         <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
         <div class="main-footer__lower">
-          &copy; Copyright 2021. Made by
+          &copy; An Open Source project by
           <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
             >Ram Maheshwari</a
           >
