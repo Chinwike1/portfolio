@@ -63,9 +63,7 @@ textarea {
   resize: none; }
 
 .project-image {
-  box-shadow: -1px -1px 80px -34px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: -1px -1px 80px -34px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -1px -1px 80px -34px rgba(0, 0, 0, 0.75); }
+  box-shadow: -1px -1px 80px -34px rgba(0, 0, 0, 0.75); }
 
 .heading-primary {
   font-size: 6rem;
@@ -651,7 +649,9 @@ textarea {
     font-size: 1.5rem;
     line-height: 1.7; }
   .main-footer__social-cont {
-    margin-top: 2rem; }
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center; }
   .main-footer__icon {
     margin-right: 2rem;
     width: 2.5rem; }
