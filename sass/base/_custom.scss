@@ -1,0 +1,17 @@
+.notify {
+    position: fixed;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+    background: #eee;
+    border-left: 5px solid #eee;
+    border-radius: 5px;
+    text-align: center;
+    
+    &-success {
+      border-left: 5px solid rgb(23, 241, 70);
+    }
+}
